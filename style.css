@@ -22,22 +22,28 @@ main {
 /* UTILITIES */
 .clearfix::after {
     content:"";
-    display: block;
+    display: table;
     clear: both;
 }
 
 
 /* CARDS */
 .card {
-    background-color: #6557d1;
+    /* background-color: #6557d1; */
     width: calc(100% / 3 );
     height: 100px;
     float: left;
+    margin-bottom: 30px;
 }
 
 .card_bg {
     background-color: wheat;
-    width: 80%;
-    height: 60%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
+.card_bg .pfp {
+    float: left;
+    height: 100px;
+    width: auto;
+}
