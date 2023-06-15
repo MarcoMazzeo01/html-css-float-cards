@@ -1,7 +1,21 @@
 /* GENERICS */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+header,main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -15,8 +29,15 @@
 
 /* CARDS */
 .card {
-    background-color: #0f0e17;
-    min-width: 100px;
-    min-height: 50px;
+    background-color: #6557d1;
+    width: calc(100% / 3 );
+    height: 100px;
     float: left;
 }
+
+.card_bg {
+    background-color: wheat;
+    width: 80%;
+    height: 60%;
+}
+
