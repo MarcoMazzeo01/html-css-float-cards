@@ -1,3 +1,22 @@
-h1 {
-    color:pink;
+/* GENERICS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* UTILITIES */
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+/* CARDS */
+.card {
+    background-color: #0f0e17;
+    min-width: 100px;
+    min-height: 50px;
+    float: left;
 }
